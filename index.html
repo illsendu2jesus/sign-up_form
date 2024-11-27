@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+ 
+        <div class="container">
+        <div class="picture">
+
+            <div class="lg">
+                <img src="./logo.jpg" class="logo">
+                <p>ODINbot</p>
+            </div>  
+            <img src="./robo.jpg" class="img">
+            
+        </div>
+        <div class="form-content">
+            <div class="text">
+                Robots that can carry out inimaginary and human-undobale tasks.From autonomous bots to drones without pilots,<span>ODINbot</span> gives you a deep dive into this tech realm.
+            </div>
+            <form method="post" action="">
+                <fieldset>
+                    <legend>Join the community by filling out the form:</legend>
+                    <p>Inputs with * are required</p>
+
+                    <div>
+                    <label for="first_name">*First Name:<input type="text" id="first_name" required maxlength="10" > </label>
+                     <label for="last_name">Last Name:<input type="text" id="last_name"></label>
+                     </div>
+                     
+                    <div>
+                        <label for="email">*Email:<input type="email" id="email" required></label>
+
+                        <label for="background">Background: 
+                           <select name="bgd" id="background">
+                               <option value="none">None</option>
+                               <option value="bootcamp">
+                                   I took a bootcamp
+                               </option>
+                               <option value="hs">High School Student</option>
+                               <option value="uni"> Uni student</option>
+                               <option value="other">Other...</option>
+   
+                           </select>
+                       </label>
+                    </div>
+
+                    <div>
+                        <label for="pass">*Password:<input type="password" id="pass" required></label>
+                        <label for="re-pass">*Confirm Passwod:<input type="password" id="re-pass" required></label>
+                    </div>
+
+                   
+                </fieldset>
+                <button type="submit">Create an Account</button>
+                <p>Already have an account? <span><a href="">Log In</a></span></p>  
+            </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
